@@ -6,11 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zng-202601/example_zng.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zng-202601/example_zng/issues"
+  },
+  "homepage": "https://github.com/Zng-202601/example_zng#readme",
   "dependencies": {
-    "lodash": "^4.17.23",
+    "lodash": "^4.17.21",
     "normalize.css": "^8.0.1"
   }
 }
