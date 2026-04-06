@@ -1,0 +1,32 @@
+.in-header {
+  display: flex;
+  padding: 0 10px;
+
+  &__bainer {
+    padding-left: 10px;
+  }
+}
+
+/* Login hesgiin style*/
+.in-login {
+  background-color: #afacac;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 400px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.in-footer {
+  background-color: #787978;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

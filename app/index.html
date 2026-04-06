@@ -1,11 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <a class="in-header">
+        <img src="assets/image/achive_logo_60x60.png" />
+        <h3 class="in-header__bainer">БАТЛАН ХАМГААЛАХЫН ТӨВ АРХИВ</h3>
+      </a>
+    </header>
+
+    <!-- Нэвтрэх хэсэг -->
+    <div class="in-login">
+      <h3>Нэвтрэх хэсэг</h3>
+
+      <form action="">
+        <label> Нэвтрэх нэр: </label>
+        <input
+          type="text"
+          id="first"
+          name="first"
+          placeholder="Нэр ..."
+          required
+        />
+
+        <label> Нууц үг: </label>
+        <input
+          type="text"
+          id="password"
+          name="password"
+          placeholder="Нууц үг ..."
+          required
+        />
+
+        <button id="btn_login">Нэвтрэх</button>
+        <!-- <button id="myButton">Click to Load Page</button> -->
+      </form>
+    </div>
+
+    <footer class="in-footer">
+      <small> Copyright © 2026 </small>
+    </footer>
+
+    <script src="bundled.js"></script>
+    <script src="/app/assets/scripts/in-Page.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+    <!-- <script>
+      const btn = document.getElementById("btn_login");
+      btn.addEventListener("click", function () {
+        // Change 'target-page.html' to your actual file name or URL
+        window.location.href = "/app/p_dalanjil.html";
+      });
+    </script> -->
+  </body>
 </html>
