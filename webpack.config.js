@@ -1,10 +1,10 @@
 const { watch } = require("fs");
 const path = require("path");
+
 const postCSSPlugins = [
   require("postcss-import"),
   require("postcss-simple-vars"),
   require("postcss-nested"),
-  require("postcss-hexrgba"),
   require("autoprefixer"),
 ];
 
@@ -25,13 +25,7 @@ module.exports = {
           "css-loader",
           {
             loader: "postcss-loader",
-            options: {
-              postcssOptions: {
-                plungins: {
-                  postCSSPlugins,
-                },
-              },
-            },
+            options: { postcssOptions: { plugins: postCSSPlugins } },
           },
         ],
       },
